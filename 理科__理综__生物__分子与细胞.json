@@ -1,0 +1,6796 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "08fc8761-375c-11e9-bc6b-beec426c7dda",
+    "deck_config_uuid": "08eed501-375c-11e9-90dc-beec426c7dda",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "anotherRetreat": false,
+            "autoAgain": 0,
+            "autoAlert": 0,
+            "autoAnswer": 0,
+            "autoplay": true,
+            "crowdanki_uuid": "08eed501-375c-11e9-90dc-beec426c7dda",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "预览",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 9999,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 9999
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "_switch.png",
+        "B7F7C92D-F21F-4EFD-A4EA-788D097F8EDF.jpg",
+        "_times.ttf",
+        "_z-day.svg",
+        "_y-night.svg",
+        "_x-night.svg",
+        "_z-night.svg",
+        "_y-day.svg",
+        "_space.png",
+        "1263AB79-FB9D-45B1-8724-8912EE49305A.jpg",
+        "_x-day.svg"
+    ],
+    "name": "理科::理综::生物::分子与细胞",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "css": "/* - http://leaflyer.lofter.com - */\n\n\n/* ----------调用字体---------- */\n\n@font-face { font-family: yh; src: url('_FZYHJW.ttf'); }\n@font-face { font-family: times; src: url('_times.ttf'); }\n\n\n/* ----------各种样式---------- */\n\nbody { background-color: #fff; color: black; }\n.card {\n\tfont: 20px/30px yh;\n\tbackground-color:#fff;\n\t#background-image: url(_bg.png);\n\t#background-size:100%;\n}\n\n.h1 { font: 22px/22px yh; padding: 0.3em 0em 0.3em 0.5em; }\n.h2 { font: 20px/30px yh; padding: 0.3em 0em 0.3em 0.5em; }\n\n.xleft { border-left: 3px solid #ec6c4f; }\n.yleft { border-left: 3px solid #338eca; }\n.zleft { border-left: 3px solid #4c991b; }\n\n.xcolor { color: #ec6c4f; }\n.ycolor { color: #338eca; }\n.zcolor { color: #4c991b; }\n\n.ximg { background: url(_x-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.yimg { background: url(_y-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.zimg { background: url(_z-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n\n.hint { color: #333; }\n\n\n/* ---------- 其他调整 ---------- */\n\na { color: #666; }\nimg { max-width: 100%; vertical-align: middle; }\n\t.chrome img { max-width: 100%; vertical-align: middle; }\nul,ol { margin-top: 0em; }\nli { margin-left: -0.5em; }\ni { font-family: palatino; padding: 0 3px 0 0; }\nu { text-decoration: none; background-color: #ffff75; border-bottom: 2px solid #ec6c4f; }\nhr { height: 1px; width: 100%; display: block; border: 0px solid #fff; vertical-align: middle; margin:5px 0px 10px 0px; background-color: #ccc;}\n#time { font-family: yh; float: right; } \n\n\n/* ----------夜间模式（Android）---------- */\n\nbody.night_mode { background-color: #232323; color:#727272; }\n.night_mode .card { background-color: #232323;  color:#727272; }\n\n.night_mode .xleft { border-left: 3px solid #a0a0a0; }\n.night_mode .yleft { border-left: 3px solid #a0a0a0; }\n.night_mode .zleft { border-left: 3px solid #a0a0a0; }\n\n.night_mode .xcolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .ycolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .zcolor { #font-weight: bold; color:#a0a0a0; }\n\n.night_mode .ximg{ background: url(_x-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.night_mode .yimg{ background: url(_y-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.night_mode .zimg{ background: url(_z-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n\n.night_mode .hint { color: #727272; }\n.night_mode u { color: #a0a0a0; background-color: #505050; border-bottom: 2px solid #5f5f5f; }\n.night_mode img { filter: alpha(opacity=30); opacity:0.3;  filter:invert;}\n.night_mode audio { filter: alpha(opacity=30); opacity:0.3; }\n.night_mode hr { background-color: #484848; }\n\n\n/* ----------动画效果---------- \n\n.slide { position: relative; -webkit-animation: slide 1s 0s; -webkit-animation-fill-mode: forwards; }\n\n@-webkit-keyframes slide {\n\t0%\t{ opacity: 0  ; top: 100px; }\n\t50%\t{ opacity: 0.8; top: -10px; }\n\t100%\t{ opacity: 1.0; top: -3px; }\n}\n*/",
+            "flds": [
+                {
+                    "font": "微软雅黑 Light",
+                    "media": [],
+                    "name": "问题",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "《》",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "答案",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "评论",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "举例",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "拓展",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": true,
+            "name": "问答(Anki高考)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n{{FrontSide}}\n\n{{#答案}}\n\t<div class=\"h2 xleft slide\"><hr>{{答案}}</div>\n{{/答案}}\n\n{{#评论}}\n<br><div class=\"slide\">\n\t<div class=\"h1 ycolor yleft\">\n\t<span class=\"yimg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t评论\n\t</div>\n\t<div class=\"h2  yleft\">{{hint:评论}}</div></div>\n{{/评论}}\n\n{{#举例}}\n<br><div class=\"slide\">\n\t<div class=\"h1 xcolor xleft\">\n\t<span class=\"ximg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t举例\n\t</div>\n\t<div class=\"h2  xleft\">{{hint:举例}}</div></div>\n{{/举例}}\n\n{{#拓展}}\n<br><div class=\"slide\">\n\t<div class=\"h1 zcolor zleft\">\n\t<span class=\"zimg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t拓展\n\t</div>\n\t<div class=\"h2 zleft\">{{hint:拓展}}</div></div>\n{{/拓展}}\n<br>\n<br>\n<div style='font-family: Arial; font-size: 12px;float:left;color:\t#DCDCDC'>欢迎访问<a href=\"https://zhuanlan.zhihu.com/ankigaokao\">Anki高考</a>获取更多支持</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "问答题-Basic",
+                    "ord": 0,
+                    "qfmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n<div class=\"h1 xcolor xleft\">\n\t<span class=\"ximg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t{{^《》}}问题{{/《》}}\n\t\t{{#《》}}{{《》}}{{/《》}}\n</div>\n\n\t<div class=\"h2 xleft\">{{问题}}</div>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "css": "/* - http://leaflyer.lofter.com - */\n\n\n/* ----------调用字体---------- */\n\n@font-face { font-family: yh; src: url('_FZYHJW.ttf'); }\n@font-face { font-family: times; src: url('_times.ttf'); }\n\n\n/* ----------各种样式---------- */\n\nbody { background-color: #fff; color: black; }\n.card {\n\tfont: 20px/30px yh;\n\tbackground-color:#fff;\n\t#background-image: url(_bg.png);\n\t#background-size:100%;\n}\n\n\n.cloze {\n\tcolor: #ec6c4f;\n\t#font-weight: bold;\n\tborder-bottom: 1px solid #ec6c4f;\n\tpadding-bottom: 2px;\n\t-webkit-animation: cloze 0.4s 0s;\n\t-webkit-animation-fill-mode: forwards;\n}\n.h1 { font: 22px/22px yh; padding: 0.3em 0em 0.3em 0.5em; }\n.h2 { font: 20px/30px yh; padding: 0.3em 0em 0.3em 0.5em; }\n\n.xleft { border-left: 3px solid #ec6c4f; }\n.yleft { border-left: 3px solid #338eca; }\n.zleft { border-left: 3px solid #4c991b; }\n\n.xcolor { color: #ec6c4f; }\n.ycolor { color: #338eca; }\n.zcolor { color: #4c991b; }\n\n.ximg { background: url(_x-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.yimg { background: url(_y-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.zimg { background: url(_z-day.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n\n.btn {\n\topacity: 0.8;\n\tright: 10px;\n\tbottom: 10px;\n\theight: 70px;\n\twidth: 70px;\n\tborder: none;\n\tbackground: url(_switch.png);\n\tbackground-size: 100%;\n\tposition: fixed;\n}\n\t.btn:active { opacity: 0.9; }\n.hint { color: #333; }\n\n\n/* ---------- 其他调整 ---------- */\n\na { color: #666; }\nimg { max-width: 100%; vertical-align: middle; }\n\t.chrome img { max-width: 100%; vertical-align: middle; }\nul,ol { margin-top: 0em; }\nli { margin-left: -0.5em; }\ni { font-family: palatino; padding: 0 3px 0 0; }\nu { text-decoration: none; background-color: #ffff75; border-bottom: 2px solid #ec6c4f; }\nuu { border-bottom: 1px solid #ec6c4f; }\nhr { height: 1px; width: 100%; display: block; border: 0px solid #fff; vertical-align: middle; margin:5px 0px 10px 0px; background-color: #ccc;}\n#time { font-family: yh; float: right; } \n\n\n/* ----------夜间模式（Android）---------- */\n\nbody.night_mode { background-color: #232323; color:#727272; }\n.night_mode .card { background-color: #232323;  color:#727272; }\n.night_mode .cloze { color: #a0a0a0; border-bottom: 1px solid #a0a0a0; }\n\n.night_mode .xleft { border-left: 3px solid #a0a0a0; }\n.night_mode .yleft { border-left: 3px solid #a0a0a0; }\n.night_mode .zleft { border-left: 3px solid #a0a0a0; }\n\n.night_mode .xcolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .ycolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .zcolor { #font-weight: bold; color:#a0a0a0; }\n\n.night_mode .ximg{ background: url(_x-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.night_mode .yimg{ background: url(_y-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n.night_mode .zimg{ background: url(_z-night.svg); background-size: 100%; background-repeat: no-repeat; background-position: center; }\n\n.night_mode .hint { color: #727272; }\n.night_mode u { color: #a0a0a0; background-color: #505050; border-bottom: 2px solid #5f5f5f; }\n.night_mode uu { border-bottom: 1px solid #5f5f5f; }\n.night_mode img { filter: alpha(opacity=30); opacity:0.3;  filter:invert;}\n.night_mode audio { filter: alpha(opacity=30); opacity:0.3; }\n.night_mode hr { background-color: #484848; }\n.night_mode .btn { opacity:0.5; right:10px; bottom:10px; position: fixed; }\n.night_mode .btn:active { opacity:0.3; }\n\n/* ----------动画效果---------- \n\n.slide { position: relative; -webkit-animation: slide 1s 0s; -webkit-animation-fill-mode: forwards; }\n\n@-webkit-keyframes slide {\n\t0%\t{ opacity: 0  ; top: 100px; }\n\t50%\t{ opacity: 0.8; top: -10px; }\n\t100%\t{ opacity: 1.0; top: -3px; }\n}\n\n@-webkit-keyframes cloze {\n\tfrom\t{ opacity: 0; }\n\tto  \t{ opacity: 1; }\n}\n*/",
+            "flds": [
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "知识",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "《》",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "评论",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "举例",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "拓展",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": true,
+            "name": "填空(Anki高考)",
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n<div class=\"h1 xcolor xleft\">\n\t<span class=\"ximg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t{{^《》}}知识{{/《》}}\n\t\t{{#《》}}{{《》}}{{/《》}}\n\t\t<span id=\"time\">\n\t</span>\n</div>\n\n\t<div class=\"h2 xleft\">{{cloze:知识}}</div>\n\n{{#评论}}\n<br><div class=\"slide\">\n\t<div class=\"h1 ycolor yleft\">\n\t<span class=\"yimg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t评论\n\t</div>\n\t<div class=\"h2  yleft\">{{hint:评论}}</div></div>\n{{/评论}}\n\n{{#举例}}\n<br><div class=\"slide\">\n\t<div class=\"h1 xcolor xleft\">\n\t<span class=\"ximg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t举例\n\t</div>\n\t<div class=\"h2  xleft\">{{hint:举例}}</div></div>\n{{/举例}}\n\n{{#拓展}}\n<br><div class=\"slide\">\n\t<div class=\"h1 zcolor zleft\">\n\t<span class=\"zimg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t拓展\n\t</div>\n\t<div class=\"h2 zleft\">{{hint:拓展}}</div></div>\n{{/拓展}}\n<br>\n<br>\n<div style='font-family: Arial; font-size: 12px;float:left;color:\t#DCDCDC'>欢迎访问<a href=\"https://zhuanlan.zhihu.com/ankigaokao\">Anki高考</a>获取更多支持</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "填空题",
+                    "ord": 0,
+                    "qfmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n<div class=\"h1 xcolor xleft\">\n\t<span class=\"ximg\"><img src=\"_space.png\" height=\"24\" width=\"24\" /></span>\n\t\t{{^《》}}知识{{/《》}}\n\t\t{{#《》}}{{《》}}{{/《》}}\n</div>\n\n\t<div class=\"h2 xleft\">{{cloze:知识}}</div>\n\n<script type=\"text/javascript\">\n    [].forEach.call(document.querySelectorAll('.cloze'),\n       function(V0) {\n          V0.innerHTML = V0.innerHTML.replace(/\\[...]/g,\"　　\");\n });\n</script>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "08f2c9ee-375c-11e9-a9e0-beec426c7dda",
+            "css": ".card {\n font-family: Microsoft YaHei Light;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "微软雅黑 Light",
+                    "media": [],
+                    "name": "文本",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": true,
+            "name": "看看就好(Anki高考)",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{文本}}\n<hr id = answer>\n<br>\n选择下次复习的间隔\n<br>\n<br>\n<div style='font-family: Arial; font-size: 12px;float:left;color:\t#DCDCDC'>欢迎访问<a href=\"https://zhuanlan.zhihu.com/ankigaokao\">Anki高考</a>获取更多支持</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "阅读",
+                    "ord": 0,
+                    "qfmt": "{{文本}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "血浆的等渗溶液？两种",
+                "",
+                "0.9%NaCl，5%葡萄糖",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zyRm3",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "血钙过少？血钙过多？",
+                "",
+                "抽搐；肌无力",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "?qsnC",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "有多个细胞核的细胞有？",
+                "",
+                "骨骼肌细胞、白细胞",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "?3a,S",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "原核生物来一遍",
+                "",
+                "蓝藻：发菜，蓝球藻，念珠藻，颤藻<br>细菌<br>支原体，衣原体，立克次氏体<br>放线菌！",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": ".Wr:P",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "乳酸菌，酵母菌各是什么生物？",
+                "",
+                "乳酸菌原核<br>酵母菌真核【真菌，有细胞壁可质壁分离】",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": ";Q1-6",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "酵母菌可以质壁分离吗？",
+                "",
+                "可以！",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "M?eM6",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "大量元素来一遍",
+                "",
+                "C,H,O,N,P,S,K,Ca,Mg",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "{@uWJ",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "微量元素来一遍",
+                "",
+                "Fe,Mn,Zn,Cu,B,Cl,Ni,Mo",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "slGC3",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "蛋白质，脂肪，糖类在机体含量大小顺序？",
+                "",
+                "蛋>脂>糖",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "P2DcB",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "磷脂所含元素？",
+                "",
+                "C,H,O,N,P【注意有个N】",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ATSg3",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "血红蛋白所含元素？",
+                "",
+                "C,H,O,N,S,Fe【注意有个S】",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "h(MAL",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "还原糖来一遍",
+                "",
+                "所有单糖：葡萄糖，半乳糖，果糖<br>大部分二糖(除了蔗糖)：乳糖，麦芽糖",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "TOg#J",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "蛋白质变性不断裂肽键对吗？",
+                "",
+                "对！",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "{l9rP",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "如何鉴定核酸？",
+                "",
+                "沸水浴，二苯胺，蓝色",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "3l{]S",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "氨基酸类物质运输方式",
+                "",
+                "主动运输",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "fmCa7",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "核苷酸脱水{{c1::聚合}}",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "2y<g6",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "氨基酸脱水{{c1::缩合}}",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": ";&T_H",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "研究分泌蛋白的合成与运输的材料？",
+                "",
+                "在豚鼠胰腺泡细胞注射<sup>3</sup>H标记亮氨酸",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "|zijA",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞<font color=\"#0000ff\">骨</font>架的化学本质？",
+                "",
+                "蛋白质纤维",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Zab^1",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "自由扩散分子来一遍",
+                "",
+                "水，气体，苯，酒精，脂质【甘油，脂肪酸，胆固醇】，尿素",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "T=sFO",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "原主动运输，后变成顺浓度梯度，还是主动运输吗？耗能吗？",
+                "",
+                "不是，不耗能。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "C=uEN",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "配制健那绿染液？",
+                "",
+                "0.5g健那绿溶于50ml生理盐水！，加热！至30~40℃",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Z;ltH",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "甲基绿吡罗红要现配现用吗？",
+                "",
+                "要",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "P%$tJ",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "健那绿要现配现用吗？",
+                "",
+                "要",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zA6R6",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "生物膜功能主要与蛋白质有关？",
+                "",
+                "对",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "bq@F6",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "生物膜的流动性是选择透过性的基础？",
+                "",
+                "对的！",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zQ4UQ",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "温度对物质运输速率的影响体现在？",
+                "",
+                "影响生物膜的流动性；<br>影响酶的活性进而影响呼吸速率，改变主动运输速率。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "h)<yC",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "质壁分离的蔗糖溶液浓度？",
+                "",
+                "0.3g/ml",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "}V6oO",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "质壁分离的原因",
+                "",
+                "细胞壁的伸缩性小于原生质层",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "._ZjS",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "糖蛋白作用？",
+                "",
+                "消化道呼吸道保护和润滑<br>识别<br>细胞附着",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "~6j_I",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "谁提出流动镶嵌模型？",
+                "",
+                "桑格，尼克森",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "1C:LM",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "高尔基体作用实例,动物和植物",
+                "",
+                "动物：分泌物的形成<br>植物：细胞壁的形成",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "hb9u3",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "溴麝香草酚蓝水溶液测什么？颜色变化？",
+                "",
+                "CO<sub>2</sub>！蓝→绿→黄",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": ":]_UA",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "无氧呼吸植物产乳酸来一遍",
+                "",
+                "马铃薯块茎，甜菜块根，玉米的胚",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "x+f<U",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "无氧C<sub>6</sub>和CO<sub>2</sub>比例？",
+                "",
+                "1：2",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "tjpu4",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "光合作用中，CO<sub>2</sub>消耗量用来算？<br />CO<sub>2</sub>吸收量用来算？",
+                "",
+                "CO<sub>2</sub>消耗量用来算真正光合<br />CO<sub>2</sub>吸收量用来算净光合",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "OX{MJ",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "层析法分离色素原理",
+                "",
+                "各种色素在层析液里的溶解度不同，随层析液在滤纸上扩散的速度不同",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "e|ilB",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "植物细胞分裂后期显著加强的细胞器？",
+                "",
+                "高尔基体【无线粒体！因为线粒体整个过程都很强】",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "W(q%F",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞分化意义？",
+                "",
+                "使多细胞生物体中的细胞趋于专门化，有利于提高各生理功能的效率",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "6,A(C",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "植物扦插体现全能性？",
+                "",
+                "错",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "eux(K",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "衰老的特征来一遍",
+                "",
+                "细胞水分减少【皱纹】<br>酶活性降低【酪氨酸酶→白发】<br>色素沉积<br>细胞呼吸速率减慢，细胞核体积增大，核膜内折，染色加深<br>细胞膜通透性改变，物质运输功能降低",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "a[r~2",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞凋亡的意义？",
+                "",
+                "维持内环境稳定以及抵御外界各种因素干扰",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": ")CYE7",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "光反应强度下降，暗反应强度怎么变？",
+                "",
+                "下降！会受牵连",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "j8n)I",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "DNA的复制在人体活细胞中都能进行？",
+                "",
+                "错！e.g.成熟红细胞",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "5~w.",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "观察植物细胞有丝分裂，解离的目的？",
+                "",
+                "使细胞彼此分离，固定细胞分裂相。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": ":a|GD",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "叶片颜色是由什么决定的？",
+                "",
+                "叶绿体内的色素",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "T)f,C",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "液泡内的色素决定什么的颜色？",
+                "",
+                "花，果实",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "{P`@B",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "二倍体生物细胞质中的遗传物质在细胞分裂时，随机地，不均等地分配 ，对吗？",
+                "",
+                "对",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "%?zd5",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "观察有丝分裂过程中，漂洗的试剂是？",
+                "",
+                "清水",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "C!.=I",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "为何去掉细胞核的卵细胞无法单独成活？",
+                "",
+                "细胞是一个统一的整体，只有保持其完整性才能正常完成各项生命活动",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "$JXvS",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "无氧呼吸生成乳酸有没有生成水？",
+                "",
+                "没有！",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "4[b*2",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞膜功能",
+                "",
+                "将细胞和外界环境分离开<br>控制物质进出细胞<br>进行细胞间信息交流",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "$gLJK",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "光合作用C的转移途径？",
+                "",
+                "C<sub>5</sub>+CO<sub>2</sub>→C<sub>3</sub>→C(H<sub>2</sub>O)+C<sub>5</sub>+<font color=\"#0000ff\">H<sub>2</sub>O</font>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "P+0?N",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "恩格尔曼水绵实验说明什么？",
+                "",
+                "光合作用产生氧气的部位在叶绿体",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "T|,kG",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "用带不同颜色荧光染料的抗体标记小鼠和人细胞膜的磷脂分子，可证明膜的流动性？",
+                "",
+                "错！标记在它的蛋白质上",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "J+;tG",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "溶酶体能合成水解酶用于分解衰老的细胞器，正误？",
+                "",
+                "误！不是他合成的",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Z5#]8",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "苏丹3+脂肪？<br>苏丹4+脂肪？",
+                "",
+                "苏丹3 橘黄色<br>苏丹4 红",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "(ChqE",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "观察DNA，RNA分布时，将盛有盐酸和载玻片的小烧杯放在大烧杯中保温5min，过长过短的结果？",
+                "",
+                "过长，细胞结构被严重破坏，影响观察<br>过短，染色不充分",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Qb9pI",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "检测花生中含有的脂肪，用染液染色后直接能进行镜检，正误？",
+                "",
+                "误，要用50%酒精洗去浮色",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": ":4YJD",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "马铃薯块茎捣碎后的提取液可检测出蛋白质，正误？",
+                "",
+                "正！蛋白质是组成细胞的重要成分，马铃薯块茎只是淀粉多但是还是有蛋白质的",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "40=FF",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "质壁分离的复原实验中，当液泡体积不再变化时，细胞液浓度和外界溶液浓度的大小关系为？",
+                "",
+                "≥",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "fW5WO",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "斐林试剂加入顺序？",
+                "",
+                "先加待测液，AB混合后加到待测液中",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "so_BT",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "探究pH对酶活性影响可否用淀粉和淀粉酶来做？",
+                "",
+                "不行，淀粉在酸性条件下会水解",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "|rE$K",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "根毛吸收的无机盐进去根导管的方式是主动运输，正误？",
+                "",
+                "误，导管细胞没有原生质层只有细胞壁",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "5FKh3",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "人的心肌细胞的线粒体和细胞核比正常细胞多，正误？",
+                "",
+                "正",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "~kXGI",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "CO<sub>2</sub>的固定需要ATP的参与，正误？",
+                "",
+                "误，固定不用，还原才要",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "iAE5C",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "为何细胞不能无限增大？",
+                "",
+                "细胞核中的DNA不会随细胞增大而增加<br>细胞的表面积和体积的比例关系限制",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "5Tv;J",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "原核细胞和真核细胞的区别在于有无细胞核？",
+                "",
+                "错！是有无成形细胞核！",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ij2SJ",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "叶绿素a b 胡萝卜素 叶黄素各自颜色",
+                "",
+                "a 蓝绿色<br>b 黄绿色<br>胡萝卜素 橙黄色<br>叶黄素 黄色",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "2r!o8",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "可用双缩脲试剂鉴定肝脏研磨液中是否有过氧化氢酶。 正误？",
+                "",
+                "误，肝脏研磨液中含有蛋白质就会出现颜色反应，不能判断是不是过氧化氢酶",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "YODeN",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "卡尔文用同位素标记法探明了光合作用暗反应中碳的转移途径。正误？",
+                "",
+                "正",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "E.vxN",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ATP是所有细胞可直接利用的唯一的能源物质。正误？",
+                "",
+                "错，细胞中绝大多数需要能量的生命活动都是由ATP直接提供能量的（只是绝大多数，不是所有）",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "4lnCM",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "脂肪鉴定洗去浮色酒精浓度？",
+                "",
+                "50%",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "C#!jS",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "绿叶里色素的提取和分离用的酒精浓度？ ",
+                "",
+                "100%",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "$}S_",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "溶酶体内含有多种水解酶，能吞噬并杀死侵入细胞的病毒或病菌。正误？ ",
+                "",
+                "正！书本原话p46",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "O,FvO",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "维生素D的合成与内质网有关。 正误？",
+                "",
+                "正",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jfl41",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "内质网功能？",
+                "",
+                "1 细胞内蛋白质的合成和加工<br>2 脂质的合成<br>3 实现细胞外和细胞核的交流",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jeMe2",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "叶片黄化，叶绿体对红光的吸收增多。 正误？",
+                "",
+                "错！",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "T&#NF",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞生长，核糖体的数量增加，物质交换频率增强。 正误？",
+                "",
+                "错！频率降低！【细胞膜和体积的关系】",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "031(R",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞凋亡，相关基因活动加强，有利于个体的生长发育。正误？",
+                "",
+                "正。注意区别个体和细胞",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "/+,TR",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞学说的内容：<div>1 {{c1::细胞是个有机体，一切动植物都由细胞发育而来，并由细胞和细胞产物构成}}<br />2 {{c2::细胞是一个相对独立的单位，既有它自己的生命，又对其他细胞共同组成的整体的生命起作用}}<br />3 {{c3::新细胞可以从老细胞中产生}}</div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "X{M>U",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "核酸和质粒中的组成元素相同。 正误？",
+                "",
+                "正",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "=V>?O",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "固醇类物质即可构成细胞结构，也可调节细胞的生命活动。 正误？",
+                "",
+                "正 细胞膜，维生素D",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "&$;7L",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "维生素D作用？",
+                "",
+                "促进人体对钙和磷的吸收",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "6@9{5",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "钾离子在植物导管中的运输都与蛋白质有关 。正误？",
+                "",
+                "误，导管（死细胞）运输无机物，钾离子是随着水分通过蒸腾作用产生的拉力向上运输。 ",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "sa5.F",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "谁提出细胞学说？",
+                "",
+                "施莱登，施旺",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": ".&/?7",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "谁发现并命名细胞？",
+                "",
+                "虎克",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": ":q/#U",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "胆固醇的作用？",
+                "",
+                "胆固醇能构成动物细胞膜，在人体内还参加血液中脂质的运输",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "*|_zP",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "肉类中含有的胆固醇，被吸收后能够参与血液中脂质的运输。正误？",
+                "",
+                "√ 书上原句“胆固醇是构成动物细胞膜的重要成分，在人体内还参与血液中脂质的运输。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "G}m;",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ATP的合成与分解都需要酶的催化。正误？",
+                "",
+                "√ ATP的合成需要ATP合成酶，ATP的分解需要ATP水解酶。 ",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "+-<AB",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "原核细胞中只有核糖体一种细胞器。（ ）  ",
+                "",
+                "√ ",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Mz_HR",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "地壳与活细胞中含量最多的元素都是O，因此说明生物界与非生物界具有统一性。（ ） ",
+                "",
+                "× 没有一种化学元素是生物界所特有的，说明生物界与非生物界具有统一性。<br>这是明显的逻辑性错误",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "@0eZC",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "观察斐林试剂与还原性糖，双缩脲与蛋白质，脂质与苏丹III,IV, 都不需要显微镜。（ ） ",
+                "",
+                "× 观察脂肪与苏丹III，苏丹IV反应时需要在低倍显微镜下",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "4qoK3",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "放能反应常伴随着ATP的水解。（ ）  ",
+                "",
+                "× 吸能反映一般与ATP水解的反应相联系，ATP水解提供能量。<br>放能反应一般与ATP合成相联系，释放的能量储存在ATP中。（必修一89）",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "BVR8F",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "观察根尖分生区组织细胞有丝分裂解离液配制？",
+                "",
+                "质量分数15%盐酸<br>体积分数95%酒精<br>1:1",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "k}0M3",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "核糖体的组成？",
+                "",
+                "rRNA+蛋白质",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "n@-B4",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "无氧呼吸只在第一阶段释放少量能量合成ATP。（ ） ",
+                "",
+                "√ 第一步放少量能量，第二步无能量放出。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Wh->2",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "分别以淀粉和麦芽糖为底物，加入唾液淀粉酶，37℃水浴15min用斐林检测可以证明酶的专一性，正误？",
+                "",
+                "误，麦芽糖也是还原糖",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "#S8rE",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "高尔基体完整作用？",
+                "",
+                "对来自内质网的蛋白质进行加工，分类和包装的“车间”和“发！送！站！”",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wEWaO",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "从蛋白质分子组成的角度分析，不同动物胰岛素不同的原因？",
+                "",
+                "构成胰岛素的氨基酸分子种类不同，排列顺序不同<br>但是数目，空间结构相同",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "NKg=2",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "健那绿能染失活的线粒体吗？",
+                "",
+                "不行，失活线粒体的酶失活，无法让健那绿保持绿色的氧化状态",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "qQe8F",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "无氧呼吸不需要氧气的参与，该过程最终有[H]的积累。（ ） ",
+                "",
+                "× 无氧呼吸无[H]的积累，第一步放出4[H]，第二步用于合成酒精或乳酸。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": ",OlI7",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "高尔基体通过{{c1::膜的重叠}}增大膜面积",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "-UuIJ",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "健那绿是一种活性细胞染料，几乎不损伤细胞。（ ） ",
+                "",
+                "√",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "g%e*F",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "肽链的加工，折叠，转运主要是在内质网中进行的。（ ）",
+                "",
+                "√ （必修I 48）肽链进入内质网进行加工，形成有一定空间结构的蛋白质。高尔基体对蛋白质进行进一步的修饰加工。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B:WfD",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "葡萄糖是细胞生命活动所需要的{{c1::主要}}能源物质",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "cMh$4",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "脂质存在于所有细胞中，是组成细胞和生物体的重要有机化合物。（ ） ",
+                "",
+                "√",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "t/<5A",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "高等植物成熟的筛管细胞和哺乳动物成熟的红细胞没有细胞核。（ ）",
+                "",
+                "√ 必修I 52 “除了高等植物成熟的筛管细胞和哺乳动物成熟的红细胞等极少数细胞外，真核细胞都有细胞核。”",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "q?;;B",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "一种酶只能催化一种物质的化学反应。（ ）",
+                "",
+                "× 每一种酶只能催化一种或一类化学反应。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "&w/oF",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "光合作用反应箭号上写什么？",
+                "",
+                "光，叶绿体",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "7MKFS",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "分子式为 C<sub>62</sub>H<sub>105</sub>O<sub>45</sub> N<sub>17</sub>S<sub>2</sub> 的多肽化合物中，最多含有肽键的数目是17个。（　）",
+                "",
+                "√ 17个N，最多有17个氨基酸，成环肽的话有17个肽键",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "@B)9A",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "衣藻和黑藻细胞产生ATP的场所有细胞质基质，叶绿体和线粒体。（ ）",
+                "",
+                "√ 衣藻和黑藻均属于真核细胞。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "4nh/C",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "破坏植物受精卵中的高尔基体，可能会导致多倍体的形成。（ ）",
+                "",
+                "对，高尔基体与植物细胞壁形成有关",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "7pLzI",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "小白鼠吸入<sup>18</sup>O标记的氧气，呼出的二氧化碳一定不含<sup>18</sup>O。（ ）",
+                "",
+                "× 有氧呼吸第二阶段的部分CO<sub>2</sub>来自于水，第三阶段氧气和[H]反应生成的水可以循环使用。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "6LT2L",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "血红蛋白中Fe几价？",
+                "",
+                "2",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "%=-}F",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "氧气由红细胞进入肝脏细胞的线粒体时可使肝脏细胞内的ADP含量减少。（ ）",
+                "",
+                "× 氧气进入肝脏细胞是自由扩散，不消耗也不产生ATP。<br>文字游戏。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "p$w;L",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "生物体内的所有膜构成了生物膜系统。（ ）",
+                "",
+                "× 细胞内的所有膜构成了生物膜系统（细胞膜、细胞器膜、核膜）",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "+>%}",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "原癌基因主要作用？",
+                "",
+                "调节细胞周期，控制细胞生长和分裂的过程",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "]zy:T",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "抑癌基因主要作用？",
+                "",
+                "阻止细胞不正常的增殖",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Z`vUM",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "任何细胞的正常活动都离不开水。（ ）",
+                "",
+                "√ P35 ”总之，各种生物体的一切生命活动都离不开水。“",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "TE]X7",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "非生物界的元素在生物界都能找到，这说明生物界和非生物界具有统一性。（ ）",
+                "",
+                "× 生物界的元素在非生物界中都能找到，说明统一性。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "TV}ZE",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "蔗糖水解的产物",
+                "",
+                "果糖和葡萄糖",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "t],ZO",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "一条染色体上一定具有一个着丝点。（ ）",
+                "",
+                "√",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": ":5WmP",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "水的光解需要酶吗？",
+                "",
+                "需要，叶绿素的吸收光能不需要酶参与，但水的光解是需要酶的参与的。 &nbsp;&nbsp;",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "^5&b5",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "分裂间期与蛋白质合成有关的细胞器有？",
+                "",
+                "核糖体和线粒体<br />没有内质网和高尔基体<div>分裂间期合成的蛋白质无需内质网修饰</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "r}KWL",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "谁用同位素示踪法探明光合作用释放的氧气全部来源于水？",
+                "",
+                "鲁宾，卡门",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "&;!NR",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "克隆动物说明什么具有全能性？",
+                "",
+                "动物<font color=\"#0000ff\">体</font>细胞核具有全能性",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "y@zbR",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "可以用油当作脂肪的检测材料吗？",
+                "",
+                "不行，颜色干扰",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "m,NB2",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "苹果汁来当还原糖鉴定材料可否？",
+                "",
+                "可以",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "z;(~H",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "谁发现和命名细胞？虎克还是列文虎克？",
+                "",
+                "虎克！",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "6>!`1",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "桑格，尼克森的流动镶嵌模型强调膜的流动性和膜蛋白分布的不对称性，正误",
+                "",
+                "正",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "&|iWO",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "普里斯特利通过实验发现植物可以利用阳光进行更新空气，正误",
+                "",
+                "误，他没有发现光的作用",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "y[01Q",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "叶绿素a 叶绿素b都含有Mg，正误",
+                "",
+                "正",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "AtL4R",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "正常生理状态下溶酶体对自身机体的细胞结构没有分解作用，正误",
+                "",
+                "误，细胞凋亡等",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "=@j~9",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "线粒体内膜蛋白质和脂质的比值大于外膜，正误",
+                "",
+                "正",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "FN&CB",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "液泡是成熟叶肉细胞中最大的细胞器，正误",
+                "",
+                "正",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "E=k!",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "线粒体和内质网直接相连，正误",
+                "",
+                "正",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "S/9@1",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "磷脂双分子层是细胞膜的基本{{c1::支}}架。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Dn1@B",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "光合作用光反应需要酶？",
+                "",
+                "需要！叶绿素的吸收光能不需要酶参与，但水的光解是需要酶的参与的。此外，合成ATP也需要酶。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "!i,4M",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "种子在发芽过程中重量和有机物种类均增加，正误",
+                "",
+                "正！重量增加是因为吸胀吸水",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "{]g34",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "植物细胞的胞间连丝具有物质运输的作用。Y/N?",
+                "",
+                "Y ，胞间连丝功能是信息交流，而信息依附于物质。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "8;F(T",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "硝化细菌能以NH<sub>3</sub>作为氮源和能源物质。Y/N?",
+                "",
+                "N.NH<sub>3</sub>不能作为能源物质。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "WdSMV",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "蛋白质区别于脂质的特有元素是氮。Y/N?",
+                "",
+                "N.部分脂质含有氮元素",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "/w4HG",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "脱氧核糖含有磷元素。Y/N?",
+                "",
+                "N.脱氧核糖指五碳糖，不含磷酸基团和碱基",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "M)AnP",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "种子萌发初期，有机物总质量增加？",
+                "",
+                "错！种子萌发初期，未长出绿色叶片无法进行光合作用合成有机物，但萌发需要细胞呼吸提供能量，这会消耗有机物，所以萌发初期，种子的有机物总重量减少。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "IN:ogYH3w4",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "及时排涝，能防止豌豆根细胞受酒精毒害 ？",
+                "",
+                "对！如果不及时排涝，豌豆根就会因缺氧而进行无氧呼吸产生酒精毒害细胞。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "r6-]0;2sFV",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "最小的细胞",
+                "",
+                "1990年，科学家发现人体生殖道支原体可能是最小、最简单的细胞......仅有48个基因。支原体是原核生物。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "e&/&:wxW?<",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "一个神经细胞可以完成反射?",
+                "",
+                "错，反射活动都需要多个细胞参与，不可能由一个细胞独立完成",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jU2hvgFr!3",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "方法二检测脂肪的步骤：",
+                "",
+                "取材→切片→制片→观察",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "cqBz*M&##n",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "盐酸在染色体染色实验中的作用是",
+                "",
+                "盐酸能改变细胞膜的通透性，加速染色剂进入细胞，使染色质中的DNA与蛋白质分离而利于染色。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "D+]w/!vADH",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "脂质分子中氧和氢的含量与糖类对比",
+                "",
+                "<div>脂质分子中氧的含量远远少于糖类，而氢的含量更多</div><div>2013年新课标一卷中涉及到：脂肪转化为糖类时，主要增加的元素就是氧。</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "DEo>uysk{Z",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "胆固醇的作用",
+                "",
+                "胆固醇是构成动物细胞膜的重要成分，在人体内还参与血液中脂质的运输",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "O;%O]hLH9E",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "葡萄糖可以口服和注射，但蔗糖只能口服而不能注射，原因是",
+                "",
+                "主要原因是葡萄糖是单糖，可直接被细胞吸收利用；蔗糖是二糖，细胞无法直接吸收，而且血浆中没有分解蔗糖的酶，而消化道中有蔗糖的相关酶。</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "dPg}]$X_ur",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "叶绿素的组成元素有",
+                "",
+                "叶绿素的组成元素有C、H、O、N、Mg",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "e=#6X)B?xY",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "生物大分子有",
+                "",
+                "蛋白质、核酸和多糖分别以氨基酸、核苷酸和单糖为单体，相对分子量很大，称为生物大分子。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Q%Xc6Q[Pp}",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "功能越复杂的细胞膜，蛋白质的种类和数量就越",
+                "",
+                "<div>多</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "JLxLoFq0so",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "台盼蓝鉴定什么？",
+                "",
+                "台盼蓝染色体鉴定活细胞，只有死细胞会染成蓝色，主要是丧失选择透过性。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "o}_z{YCZ.f",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "溶酶体的作用。",
+                "",
+                "<div>溶酶体内含多种水解酶，能分解衰老损伤的细胞器，吞噬并杀死侵入细胞的病毒或病菌。</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "GFJO)Q!y=%",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "内质网膜与其他生物膜的关系",
+                "",
+                "内质网膜可内连核膜，外连细胞膜。（各种生物膜成分和结构相似，结构和功能上紧密联系和协调配合）",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "y>X$f3Ds=6",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "原生质层指的是?",
+                "",
+                "<div>成熟的植物细胞，细胞膜和液泡膜以及两层膜间的细胞质称为原生质层</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "EY2Y^+l:6Q",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "磷脂分子的组成元素有",
+                "",
+                "<div>磷脂分子的组成元素有C、H、O、N、P</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jG!O;G6WI!",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "酸可以催化哪些物质水解？",
+                "",
+                "酸既能催化蛋白质水解，又能催化脂肪和淀粉水解",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "PWW*~cW_W&",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "建议用淀粉酶探究温度对酶活性的影响，用过氧化氢酶探究pH对酶活性的影响，原因：",
+                "",
+                "<div>温度（高温）本身会影响过氧化氢自然分解的速度；酸本身也可以作为无机催化剂催化淀粉的水解</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "J!^YC[q0+t",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ATP的组成元素有",
+                "",
+                "<div>ATP的组成元素有C、H、O、N、P</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "N6_Y0Q4fIg",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "线粒体一般均匀分布在细胞质中，但也可以定向运动到细胞代谢旺盛的部位?",
+                "",
+                "对",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "b)IQI/Y?U?",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "无氧呼吸产生ATP的阶段",
+                "",
+                "无氧呼吸只在第一阶段释放少量能量，生成少量ATP",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "p4l*w5;a>H",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "呼吸作用和光合作用的还原氢是?",
+                "",
+                "呼吸作用产生的还原氢，其实是NADH，而光合作用产生的还原氢是NADPH，两种物质不同，不能混用。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "d,U=~uObZ&",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "鸟类和哺乳动物需要维持体温的恒定，主要是靠",
+                "",
+                "鸟类和哺乳动物需要维持体温的恒定，主要是靠细胞呼吸产生的热量来维持，一般不是由ATP水解来供能的",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "sMH-]=4c&7",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "类胡萝卜素（胡萝卜素和叶黄素）主要吸收",
+                "",
+                "<div>蓝紫光</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "OG)*7^c^n$",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "光合作用早中晚限制因素",
+                "",
+                "夏季晴朗的白天的中午，有些植物会关闭气孔，这直接限制暗反应；而早晨和黄昏，光照较弱，直接限制的是光反应。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "iM0I[)*A@C",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "给植物松土的利弊。",
+                "",
+                "松土有利于植物根系有氧呼吸从而更好吸收矿质元素，但不利于水土保持和减缓温室效应，因为植物和微生物有氧呼吸会产生更多二氧化碳",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "QO:&k#fdRb",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "什么可以反映细胞的物质运输的效率？",
+                "",
+                "相同时间内，物质扩散进入细胞的体积与细胞的总体积之比可以反映物质运输的效率（注意：<font color=\"#0000ff\">运输效率</font>不是单位时间的扩散深度，也<font color=\"#0000ff\">不是速率</font>）",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "o8bLlb67&}",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "单细胞动物较大，细胞出现多核，有利于",
+                "",
+                "控制细胞",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wW1=qSoIl1",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "如何估计根尖分生区细胞各个时期占整个周期的比例",
+                "",
+                "<div>由于取材的根尖分生区细胞，一般都在连续分裂，分裂是随机而不同步的，所以可以<font color=\"#0000ff\">通过统计各时期的细胞占细胞总数的比例</font>（要注意取多个样本再取平均值），来估计各个时期占整个周期的比例。</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "BBhB$laP%$",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "一般的细胞随着什么而衰老?",
+                "",
+                "细胞会随着分裂次数的增多而衰老，越是衰老的细胞一般越不能再分裂。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "u[8:w[:-pv",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "为什么老年人的患癌率较高",
+                "",
+                "癌症的发生并不是单一基因突变的结果，至少在一个细胞中发生5~6个基因突变累积，而老年人的细胞分裂次数多，突变的基因多，因此老年人的患癌率较高。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Oe#A6nK4B7",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "本尼迪特试剂，也称班氏试剂，是",
+                "",
+                "<font color=\"#0000ff\">斐林试剂的改良试剂</font>，它与醛或醛（酮）糖反应生成<font color=\"#0000ff\">红黄色沉淀</font>。它是由硫酸铜、柠檬酸钠和无水碳酸钠配置成的蓝色溶液，可以存放备用，避免斐林溶液必须现配现用的缺点。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "tEBxe,E?G@",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "斐林试剂",
+                "生物实验试剂",
+                "成分：0.1g/ml NaOH（甲液）和0.05g/ml CuSO<sub>4</sub>（乙液）。 &nbsp;用法：将斐林试剂甲液和乙液等体积混合，再将混合后的斐林试剂倒入待测液，水浴加热或直接加热，如待测液中存在还原糖，则呈砖红色。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "P@km33(4D#",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "duplicate",
+                "生物实验试剂"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "班氏糖定性试剂",
+                "生物实验试剂",
+                "为蓝色溶液。 &nbsp;和葡萄糖混合后沸水浴会出现砖红色沉淀。用于尿糖的测定",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "l.bSoy5QPR",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物实验试剂"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "双缩脲试剂",
+                "生物实验试剂",
+                "成分：0.1g/ml NaOH（甲液）和0.01g/ml CuSO<sub>4</sub>（乙液）。 &nbsp;用法：向待测液中先加入2ml甲液，摇匀，再向其中加入3~4滴乙液，摇匀。如待测中存在蛋白质，则呈现紫色。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "o//GfNNYXR",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "duplicate",
+                "生物实验试剂"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "苏丹Ⅲ",
+                "生物实验试剂",
+                "用法：取苏丹Ⅲ颗粒溶于95%的酒精中，摇匀。 &nbsp;用于检测脂肪。可将脂肪染成橘黄色（被苏丹Ⅳ染成红色）",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Hzx&4^zoGd",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物实验试剂"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "甲基绿",
+                "生物实验试剂",
+                "用于鉴定DNA。 &nbsp;DNA遇甲基绿（常温）会被染成蓝绿色。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "vBI[E;R)8w",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物实验试剂"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "50%的酒精溶液",
+                "生物实验试剂",
+                "在脂肪鉴定中，用苏丹Ⅲ染液染色，再用50%的酒精溶液洗去浮色",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "K[,{w?tr_r",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物实验试剂"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "75%的酒精溶液",
+                "生物实验试剂",
+                "用于杀菌消毒，75%的酒精能渗入细胞内，使蛋白质凝固变性。低于这个浓度，酒精的渗透脱水作用减弱，杀菌力不强；而高于这个浓度，则会使细菌表面蛋白质迅速脱水，凝固成膜，妨碍酒精透入，削弱杀菌能力。 &nbsp;75％的酒精溶液常用于手术前、打针、换药、针灸前皮肤脱碘消毒以及机械消毒等。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Dd16szi~iS",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物实验试剂"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "15%的盐酸和{{c1::95%的酒精}}溶液等体积混合可用于解离根尖",
+                "生物实验试剂",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "s}vXams3@m",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物实验试剂"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "龙胆紫溶液",
+                "生物实验试剂",
+                "用于染色体着色，可将染色体染成紫色，通常染色3~5分钟。（也可以用醋酸洋红染色）",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "rUuw}Ygpo!",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物实验试剂"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "20%的肝脏、3%的过氧化氢、3.5%的氯化铁：",
+                "生物实验试剂",
+                "用于比较过氧化氢酶和Fe<sup>3+</sup>的催化效率。（新鲜的肝脏中含有过氧化氢酶）",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B2iQk8/=sA",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物实验试剂"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "3%的可溶性淀粉溶液、3%的蔗糖溶液、2%的新鲜淀粉酶溶液",
+                "生物实验试剂",
+                "用于探索淀粉酶对淀粉和蔗糖的作用实验",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "n>A?ov.?0w",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物实验试剂"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "碘液",
+                "生物实验试剂",
+                "用于鉴定淀粉的存在。遇淀粉变蓝。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "L5gm1Qupc7",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物实验试剂"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "丙酮",
+                "生物实验试剂",
+                "用于提取叶绿体中的色素",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "uoqy3`$lN7",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物实验试剂"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "二氧化硅",
+                "生物实验试剂",
+                "在色素的提取的分离实验中研磨绿色叶片时加入，可使研磨充分",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "IG_8ahGQD5",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物实验试剂"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "碳酸钙",
+                "生物实验试剂",
+                "研磨绿色叶片时加入，可中和有机酸，防止在研磨时叶绿体中的色素受破坏",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "nhcilB9A`|",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物实验试剂"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "0.3g/mL的蔗糖溶液",
+                "生物实验试剂",
+                "相当于30%的蔗糖溶液，比植物细胞液的浓度大，可用于质壁分 离实验",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "k!k2W`N9M=",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物实验试剂"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "去除叶片内气体的方法",
+                "",
+                "真空抽气法",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "f#6lVX7cla",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "植物细胞的边界是细胞壁，动物细胞的边界是细胞膜（）",
+                "判断题",
+                "错。植物细胞和动物细胞的边界都是细胞膜。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "O0F~E?$}SL",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "组成细胞膜的成分中占细胞膜总量50%的物质是蛋白质？",
+                "判断题",
+                "错，50％是脂质 40%是蛋白质。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "l2#yozv1)}",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "衰老细胞的体积变小，其相对表面积增大，但物质运输效率降低？",
+                "判断题",
+                "正确。物质运输效率降低，是因为通透性的改变。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "oFPL6M?{?M",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞核属于细胞器？",
+                "判断题",
+                "正确",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "tNS%f[71@d",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞中绝大多数的水以结合水的形式存在？",
+                "判断题",
+                "错误，主要以自由水形式存在，可以自由流动。（结合水组成细胞和生物体结构的成分，细胞内部部分水主要以氢键的形式与蛋白质多糖磷脂等固体物质相结合 主要是指氢键与蛋白质的极性基相结合形成）",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "M}fVV*i?^H",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "光合作用和化能合成作用，合成有机物所利用的能量形式不同？",
+                "判断题",
+                "正确，光合作用是利用光能 化能合成作用是利用化学能",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "yahNBi4N54",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "光合作用和化能合成作用，合成有机物所利用的原料不同。",
+                "判断题",
+                "错误，都是利用无机物例如二氧化碳水转化为糖。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "in}T(-QO,s",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "95%的酒精的作用（回答）",
+                "判断题",
+                "一，可以直接用来洗去固定细胞形态的卡诺氏液，<div>二，加碳酸钠后，可以用于提取绿叶中的色素，</div><div>三，可以与质量分数为15%的盐酸溶液混合用于解离根尖组织细胞。</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zKvLb@3zaK",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "95%的酒精溶液 可以用来处理人口腔上皮细胞，以利于但染色体进入细胞与DNA结合？",
+                "判断题",
+                "错误。是8%的盐酸",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Ln]@IA}Ry6",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "可用同位素标记法，证明水是光合作用的原料，氧气是光合作用的产物？",
+                "判断题",
+                "正确，用氧18标记水的方法可以证明",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Bf~p1Uie#=",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "烟草花叶病毒与大肠杆菌的增殖方式相同？",
+                "判断题",
+                "错误。烟草花叶病毒通过在宿主细胞内合成蛋白质，复制RNA与进行增殖，大肠杆菌依靠细胞分裂进增殖",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Q0$P:3q&D1",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "某些病毒可作为致癌因子诱导人体细胞癌变？",
+                "判断题",
+                "正确",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "P_Eltz`iN7",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "原核细胞中核糖体的形成与核仁无关？",
+                "判断题",
+                "正确。因为原核细胞没有核仁",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "uA5QV@A1Mt",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞膜对物质运输的选择性与其上载体蛋白的种类有关？",
+                "判断题",
+                "正确。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "fe?_l5:%W0",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "线粒体聚积在细菌鞭毛基部，便于提供能量？",
+                "判断题",
+                "错误 细菌为原核细胞，其鞭毛基部无线粒体。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "uJze81k{FZ",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞自噬与细胞凋亡不是一个概念？",
+                "判断题",
+                "正确 细胞凋亡指的是维持内环境稳态，由基因控制的细胞自主的有序死亡。<div>细胞自噬，主要是清除和降解细胞内损伤或衰老的细胞器，以及不再需要的生物大分子。</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "o3=Gvl/*rv",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"B7F7C92D-F21F-4EFD-A4EA-788D097F8EDF.jpg\"><br><div>对甲乙试管的实验结果可以说明酶具有高效性？</div>",
+                "判断题",
+                "错误，是具有催化作用",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "I3}/(GfB_j",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "健康人衰老后，头发基部的黑色素细胞因缺乏酪氨酸酶将导致头发变白？",
+                "判断题",
+                "错误。健康人衰老后头发基部的黑色素细胞中酪氨酸酶活性降低，黑色素合成减少，导致头发变白。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "kAAwAP3RO{",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞不同生命历程中蛋白质种类差异，与核基因的特异性表达有关？",
+                "判断题",
+                "正确。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jD(|_5V}:`",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "海蜇的绿色荧光蛋白基因，不能在小鼠体细胞内稳定表达？",
+                "判断题",
+                "错误，可以。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "MT0L+BT!e2",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "胰岛素的两条肽链，分别由胰岛素基因的两条单链编码？",
+                "判断题",
+                "错误。胰岛素的两条肽链是由胰岛素基因的一条单链编码。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "bl,b0T?fg=",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "所有脂质都可以为生命体的生命活动提供能量？",
+                "判断题",
+                "错误，如磷脂",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "y8I}5-/o6^",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "黄曲霉素可以增加细胞癌变的概率，其属于化学致癌因子?",
+                "判断题",
+                "正确。<img src=\"1263AB79-FB9D-45B1-8724-8912EE49305A.jpg\">",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Knq|V$#(6B",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "在观察根尖有丝分裂实验中，使用盐酸是为了促进染色质DNA与蛋白质分离？",
+                "判断题",
+                "错误，使用盐酸是为了使细胞之间相互分离",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "D7x{V!Bsq<",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "有氧呼吸第二阶段产生的二氧化碳中的氧，全部来自于丙酮酸？",
+                "判断题",
+                "错误，一部分来自于水，一部分来自于丙酮酸。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Nh9swOx.)]",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "观察细胞有丝分裂实验中，先用龙胆紫染色，后用清水漂洗？",
+                "判断题",
+                "错误，应先用清水漂洗解离液后，再用龙胆紫染色。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "OB`]f(uet-",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "核酸和ATP的合成过程中都需要消耗能量",
+                "判断题",
+                "正确 （蛋白质的合成，也是需要消耗能量的 &nbsp; 自由扩散和协助扩散不消耗能量，大分子有机物的水解也不消耗能量。 ）",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "cvyBmdeZZ(",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "水在衰老细胞癌变细胞中含量都比较少？",
+                "判断题",
+                "错误，在癌变细胞中比较多。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "z?IRFS{F+j",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "合成ATP所需能量可以是光能、化学能、热能？",
+                "判断题",
+                "错误，没有热能",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wGK2^;jee+",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "为什么氧气增多时有氧呼吸会增加？",
+                "",
+                "氧气与有机物分解产生的NADH发生反应形成水是有氧呼吸的一个环节，所以当氧气增多时，有氧呼吸会增加。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "x=A.R",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "在有光照的密闭小室中培养一段时间后，植物的光合速率下降的原因是。",
+                "",
+                "光下植物光合作用吸收二氧化碳的量大于呼吸作用释放二氧化碳的量，使密闭小室中二氧化碳浓度降低，光合作用也随之降低。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "2Uf3M",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "核膜核仁的解体发生在分裂间期？",
+                "判断题",
+                "错误，发生在分裂前期。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Df<e$f0P)[",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞癌变时，细胞膜上的糖蛋白增多？",
+                "判断题",
+                "错误，减少。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "sz/:T7aSlf",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "原生质层的选择透过性取决于?",
+                "",
+                "细胞膜和液泡膜",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "r%,slx=luz",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "硅肺的成因",
+                "",
+                "硅尘被吞噬细胞吞噬，但细胞的溶酶体缺乏分解硅尘的酶，而硅尘却能破坏溶酶体的膜，使细胞死亡",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "I&!{y9=>GV",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "种子晒干过程损失的主要是",
+                "",
+                "自由水",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "cqRQpQKS3H",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "干种子高温烘烤出的水珠的来源主要是",
+                "",
+                "结合水，结合水破坏后的种子不能萌发。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "C(DH!%gQXq",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "协助扩散实例",
+                "",
+                "红细胞吸收葡萄糖",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "n`d@k6+0Mr",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "生命活动常常同时受神经和体液的调节，而以神经调节为主？",
+                "",
+                "对",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "JjS!q;^:=4",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "用显微镜观察无色且未染色的细胞，应该",
+                "",
+                "把视野调暗些，可换成平面反光镜和小光圈。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "xZxSH?aa2A",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "鲜肉立即做熟，肉会很老，鲜肉过一段时间后再煮，肉反而鲜嫩，主要与什么有关？",
+                "",
+                "细胞内的溶酶体提前把一些大分子物质水解",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "K8MI5V=s;w",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "原核细胞的细胞壁则由什么组成？",
+                "",
+                "肽聚糖",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "IbKLG",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "植物细胞不一定有叶绿体？",
+                "",
+                "对，植物的根尖细胞等并不具有叶绿体。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "4y^w1",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "单细胞动物较大，细胞内出现伸缩泡，有利于",
+                "",
+                "增大细胞的膜表面积和加快物质交换。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "J6vad=$(+a",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "叶绿素（a和b）主要吸收",
+                "",
+                "红光和蓝紫光",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "yT{.^ffb$(",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "植物根尖分生区在显微镜下的特点",
+                "",
+                "细胞呈正方形，排列紧密",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "NTG$5!T`8a",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "提取绿叶中色素的提取液是",
+                "",
+                "无水乙醇或者是体积分数为95%的酒精加无水碳酸钠。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "QZ<IU",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "分裂间期的特点是",
+                "",
+                "完成DNA复制和有关蛋白的合成，为分裂期准备物质，同时细胞有适度的生长。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Yx)(R",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞内水分的主要作用有：<div>水{{c1::是细胞的重要组成部分}}；<br>水{{c2::参与细胞内的生化反应}}；<br>水{{c3::是细胞内的良好溶剂}}；<br>水{{c4::可以运送营养物质和代谢废物}}；<br>水{{c5::可以维持细胞形态}}。</div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "z_#dJ",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "生物膜的流动镶嵌模型属于什么模型？",
+                "",
+                "物理模型。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "TH,6S",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "用盐酸处理哺乳动物成熟的红细胞可改变膜的通透性从而获得细胞膜？",
+                "",
+                "错，细胞膜制备原理是红细胞在蒸馏水中过度吸水涨破。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "{]o*B",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "线粒体膜间隙和线粒体基质中的主要成分相同？",
+                "",
+                "错，线粒体膜间隙和线粒体基质的功能不同，其组成成分必然不同。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "qh9HN",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "观察DNA和RNA在细胞中分布的实验中盐酸能够使染色质中的蛋白质与DNA分离？",
+                "判断题",
+                "正确",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "C.=J+=1yJ.",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "在细胞有丝分裂的实验中，压片的目的是使细胞相互分离？",
+                "判断题",
+                "错误。压片的目的是使细胞相互分散开来。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "QT//)U*s8X",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "核孔是大分子进出的通道，通过其大小限制进出的大分子物质种类？",
+                "判断题",
+                "正确",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "m1+S}`<ch&",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "对于频繁使用的菌种应用什么方法保存？",
+                "",
+                "临时保藏",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "u#jOJ",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "DNA和RNA在细胞中的分布实验的步骤",
+                "",
+                "制片→水解→冲洗→染色→观察",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "eMU3F",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "DNA和RNA在细胞中的分布实验中，冲洗要注意",
+                "",
+                "用蒸馏水的缓水流冲洗，防止细胞被水流冲走。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Cr@nU",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "质壁分离时，原生质层的长度与细胞长度的比值反映",
+                "",
+                "质壁分离的程度，比值越小，分离程度越大，颜色更深。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "X:#%N",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "当外界溶液浓度大于细胞液浓度时，植物细胞就会发生质壁分离？",
+                "",
+                "错，植物细胞不一定有细胞壁、原生质层和液泡，而质壁分离前提是有这三者。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ND}hG",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "生物膜的流动镶嵌模型属于概念模型？",
+                "判断题",
+                "错误，属于物理模型",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "sH?fzKsn_H",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "生物膜的基本支架一定是磷脂双分子层？",
+                "判断题",
+                "正确",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B<{Z)/4~^y",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞凋亡过程中有新蛋白质合成，体现了基因的选择性表达？",
+                "判断题",
+                "正确",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zTO/w$4-9r",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "生物膜系统在细胞的生命活动中具有重要作用，细胞都具有生物膜结构?",
+                "判断题",
+                "错误，例如原核生物，原核细胞虽然有细胞膜,但是没有核膜、内质网膜等与之共同作用.",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jblQk)@OO.",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "线粒体中，膜间隙与线粒体基质的主要成分相同？",
+                "判断题",
+                "错误 二者的主要功能都不同，所以成分也不同",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "z0Oxd`#X?{",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "HIV病毒复制时需要复制酶",
+                "判断题",
+                "错误<div>HIV逆转录病毒不能发生复制</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Ai^[wVuRAp",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "选择菠菜叶肉细胞做实验材料，可以明显观察到细胞中的线粒体？",
+                "判断题",
+                "错误 有叶绿体干扰显色",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "m_oV0y}b^I",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "膜表面糖蛋白等物质减少，可导致细胞无限增殖？",
+                "判断题",
+                "错误，膜表面糖蛋白等物质减少，是癌细胞易扩散的原因，而细胞无限增殖的原因是失去接触抑制。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "yeUTaw?7BQ",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "叶表皮细胞颜色是",
+                "",
+                "无色透明的，不含叶绿体。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "mbvxTX<VUX",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>保卫细胞含叶绿体？</div>",
+                "",
+                "对。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "qV/t>m;>%>",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>动物细胞有丝分裂过程中细胞中可含有{{c1::4}}个中心粒。</div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "kQnt:w.`/q",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "没有线粒体的动物细胞有",
+                "",
+                "蛔虫细胞、哺乳动物成熟的红细胞",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "mkj:&bKNdI",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "净光合吸收的CO<sub>2</sub>与积累的葡萄糖，物质的量之比为{{c1::6:1}}，质量比为{{c2::22:15}}",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "dWmmT",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞代谢的主要场所是",
+                "",
+                "细胞质基质和细胞器。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "9HwUN",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞核的作用是",
+                "",
+                "控制细胞的遗传和代谢",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "0L=_",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "用显微镜观察细胞过程中，切换高倍镜进行观察前先要",
+                "",
+                "将目标移至视野中央。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "6y>.6",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "观察叶绿体，材料要求",
+                "",
+                "稍带叶肉的下表皮<br>保持有水状态",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "=bQ46",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::罗伯特森}}用{{c2::电子显微镜}}观察到细胞膜的{{c3::暗-亮-暗}}的三层结构，提出细胞膜{{c4::蛋白质-脂质-蛋白质}}3层结构",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "0;GpD",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞间信息交流都需要相应的受体？",
+                "",
+                "错，比如植物细胞间的信息交流可以靠胞间连丝。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "PuV>I",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细菌中碱基A多于T？",
+                "",
+                "对，DNA中A与T数量相等，但RNA中只有A没有T。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ic0nP",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "在观察DNA和RNA的分布和观察根尖的有丝分裂实验中均需要使用盐酸？",
+                "判断题",
+                "正确",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "COnx.a`g%N",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "在观察花生子叶中的脂肪滴及低温诱导植物染色体数目变化实验中需要使用酒精？",
+                "判断题",
+                "正确",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "P4S_mv4:7H",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞中的脂质均是由内质网合成的？",
+                "判断题",
+                "错误，内质网是脂质合成的车间，细胞内的脂质，除细胞本身制造外，还可以从外界吸收。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jbE3y7wN~t",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "生物大分子及其单体都是以碳链作为基本骨架？",
+                "判断题",
+                "正确",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "HF^,D&aCe}",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "膜蛋白对钾离子和钠离子的转运，体现了细胞膜选择透过性的功能？",
+                "判断题",
+                "错误，细胞膜的功能有：将细胞与外界环境分隔开，控制物质进出细胞，进行细胞间的信息交流等。选择透过性是细胞膜的功能特性，而不是其功能。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Epoo1{7AOr",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞分裂分化凋亡的过程都是细胞基因选择性表达的结果？",
+                "判断题",
+                "正确 细胞分裂分化和凋亡都是在基因控制下进行的，都有特异性组织蛋白的产生，都是基因选择性表达的结果",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "taXeK*7v<g",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "经过龙胆紫染液染色后，需要进行清水漂洗？",
+                "判断题",
+                "错误，经过龙胆紫染液染色后，可以直接进行制片",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "E2ZuE#0@tT",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "蛋白质和核酸不可能具有相同的作用？",
+                "判断题",
+                "错误，部分核酸和部分蛋白质都能够起到催化作用",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "P?vyYK,Hx1",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "酶的合成需要ATP供能，ATP的合成需要酶的催化？",
+                "判断题",
+                "正确",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "GzSHlP-hk,",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "在不利因素的影响下，代谢活动中断不是人体细胞必须经历的过程？",
+                "判断题",
+                "正确，细胞分化，细胞凋亡，细胞衰老都是人体必须经历的，但细胞坏死不一定。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "h>~$5N*u<x",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "具有中心體的高等生物細胞一定是動物細胞？",
+                "判断题",
+                "正确",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wwq0>4x7hd",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "顺浓度梯度运输的，没法判断是协助扩散还是自由扩散？",
+                "判断题",
+                "错误，可以通过是否需要载体蛋白协助来判断。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Eth5>V3B~g",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "人体细胞中含量最多的元素是碳？",
+                "判断题",
+                "错误，人体细胞中含量最多的是氧",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jhdfWWu7nm",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "分裂间期，高尔基体合成的蛋白质可运入细胞核？",
+                "判断题",
+                "错误，细胞中的蛋白质是由核糖体合成的",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "L$^E/?k|wp",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "蓝藻和根尖细胞均能进行光合作用，但场所不同？",
+                "判断题",
+                "错误，根尖分生区细胞没有叶绿体，不能进行光合作用",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "p=1tu?|FQU",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物判断题"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ATP和[H]在叶绿体中随水的分解而产生，在线粒体中随水的生成而产生？",
+                "",
+                "错误，线粒体中产生水的过程需要消耗[H]。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": ">v)DI",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "DNA病毒有哪些？",
+                "",
+                "噬菌体、天花病毒、乙肝病毒",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": ";EGF9",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "用含有3H标记的尿嘧啶核糖核苷酸的营养液培养洋葱根尖，只能在分生区细胞中检测到放射性？",
+                "",
+                "错误，尿嘧啶核糖核苷酸是合成RNA的原料，由于所有细胞都能合成RNA，因此用3H标记的尿嘧啶核糖核苷酸的营养液培养洋葱根尖，不仅能在分生区细胞中检测到放射性，在其他细胞中也能检测到放射性。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "H}5=P",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "生物膜上可发生信号转换和能量转换？",
+                "",
+                "正确，生物膜对物质运输、能量转换和信息传递等过程起重要作用。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "[j;:9",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "用苏丹Ⅳ染液无法检测生物组织中维生素D的存在？",
+                "",
+                "正确，苏丹Ⅳ染液可检测生物组织中的脂肪 维生素D是固醇。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "U5x-4",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "蛋白质的空间结构与构成蛋白质的氨基酸的{{c1::种类}}、{{c1::数目}}、{{c1::排列顺序}}有关",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "x0:.H",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "蛋白质的结构从根本上说是由{{c1::基因}}决定的。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "sMSvR",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "蓝藻细胞在叶绿体内产生氧气？",
+                "",
+                "错误，蓝藻是原核生物，其细胞内没有叶绿体。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "T%adQ",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞中蛋白质和脂肪的合成需要供给氮源？",
+                "",
+                "错误，脂肪的组成元素是C、H、O，不含N。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "[Tv82",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "在适宜条件下，甲的叶绿素少于乙，而净光合速率低于乙的原因是",
+                "",
+                "甲的叶绿素含量低乙，因而其利用光能的能力较弱，在相同光照强度下，其光合作用强度低乙，同时，其呼吸速率与乙相同，所以，其净光合速率小于乙。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "8k_9J",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "甲的光合作用速率会大于呼吸作用速率，说明甲植物光合作用所需CO<sub>2</sub>除了来自{{c1::线粒体}}，还要从{{c1::外界环境}}中吸收。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": ">pgjQ",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "将一定量的小球藻放入清水中，并提供适宜的温度和光照，小球藻开始释放氧气，但很快就会停止，说明{{c1::暗反应}}为{{c1::光反应}}的正常进行提供了{{c2::物质基础}}。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Q^^lS",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "蛋白液加入蛋白酶，充分反应后，加入双缩脲试剂，是否显色？原因？",
+                "",
+                "显色，因为蛋白酶本身是蛋白质。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Qr?|S",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "种子萌发过程中的吸水方式是？",
+                "",
+                "吸胀吸水",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "{Pd-1",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "烘干和晒干种子的区别",
+                "",
+                "烘干是失去自由水和结合水，种子失去活性；<br>晒干是失去自由水，泡水后依然能萌发。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "GUuOF",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "种子的储藏条件：{{c1::干燥、零上低温、低氧}}",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ol):5",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "可以利用光能的色素是？",
+                "",
+                "叶绿素a可以吸收和利用光能，而其他色素只能吸收和传递光能。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "g]d^5",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "酶的催化作用机理是？",
+                "",
+                "降低化学反应所需的活化能",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "M{U$RX^hr9",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞器之间都能通过囊泡进行物质运输？",
+                "",
+                "错误，中心体、核糖体都没有膜结构。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "4&tpJ",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "水盐与生命健康<br>患急性肠炎的病人脱水时需要及时补充水分，同时也需要补充体内丢失的无机盐，因此，输入{{c1::葡萄糖盐水}}是常见的治疗方法。大量出汗会排出过多的无机盐，导致体内的水盐平衡和酸碱平衡失调，这时应多喝{{c2::淡盐水}}",
+                "",
+                "急性肠胃炎的病人因为小肠的吸收功能受到了影响，不能将喝进去的水吸收进入血液，所以容易造成脱水。另外，吸收功能降低，体内细胞生命活动不断消耗能量，分解体内葡萄糖，还要及时补充体内葡萄糖，满足机体生命活动所需要的能源。",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "9ot[A",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "真核细胞中有维持细胞形态、保持细胞内部结构有序性的细胞骨架，细胞骨架是{{c1::蛋白质纤维}}组成的网架结构与细胞{{c2::运动、分裂、分化}}以及{{c3::物质运输、能量转换、信息传递}}等生命活动密切相关。<br>—［摘自必修1P47]",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jpVfG",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "盐析一般是指溶液中加入无机盐类而使某种物质溶解度降低而析出的过程，原理是物质在不同浓度的盐溶液中溶解度不同。蛋白质在{{c1::高浓度盐溶液}}中析出，而DNA是在{{c2::低浓度盐溶液}}中析出，盐析为<font color=\"#0000ff\">可逆反应</font>。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "w:jm9",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "磷脂是一种由{{c2::甘油、脂肪酸、磷酸}}等所组成的分子，{{c2::磷酸}}“头”部是{{c1::亲水}}的，{{c2::脂肪酸}}“尾”部是{{c1::疏水}}的。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wj}b8",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "藻类植物与光谱<br>海洋中的藻类植物，习惯上依其颜色分为绿藻、褐藻和红藻，它们在海水中的垂直分布依次是浅、中、深，这与光能的捕获有关吗？<br>［摘自必修1P100“拓展题”］<br>提示:有关。不同颜色的藻类吸收不同波长的光。藻类本身的颜色是反射出来的光，即红藻反射出了红光，绿藻反射出绿光，褐藻反射出黄色的光。<font color=\"#0000ff\">水层对光波中的红、橙部分吸收显著多于对蓝、绿部分的吸收</font>，即到达深水层的光线是相对富含短波长的光，所以吸收红光和蓝紫光较多的绿藻分布于海水的浅层，吸收蓝紫光和绿光较多的红藻分布于海水深的地方。"
+            ],
+            "flags": 0,
+            "guid": "[YC9B",
+            "note_model_uuid": "08f2c9ee-375c-11e9-a9e0-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "基因治疗是指用正常基因取代或修补病人细胞中有缺陷的基因，从而达到治疗疾病的目的。基因治疗是否需要对机体所有细胞进行基因修复？试说明原因。<br>问题源于必修2P94“科学技术社会<br>提示:不需要，由细胞分化可知，有缺陷的基因只在特定的细胞中表达，所以基因治疗只需要对特定的细胞进行基因修复。"
+            ],
+            "flags": 0,
+            "guid": "{m~v4",
+            "note_model_uuid": "08f2c9ee-375c-11e9-a9e0-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "土壤中的细菌将尿素分解为{{c1::氨}}后，才能被植物利用。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Eb:WS",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "葡萄糖的作用有：<div>{{c1::为细胞生命活动提供能量}}，<br />{{c2::为其他有机物的合成提供原料}}。</div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "O:-s8]P9rb",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞既是生物体{{c1::结构}}的基本单位，也是生物体{{c2::代谢和遗传}}的基本单位",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "nc|e3d@vmy",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "可以进行光合作用的原核生物有{{c1::蓝细菌 、紫色细菌}}",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "u3{(bFW5Fv",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<!--anki-->可以进行有氧呼吸的原核生物有{{c1::肺炎双球菌、蓝藻、硝化细菌、根瘤菌}}",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "dK+KpXJ><[",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "抑制线粒体内膜上由ADP变为ATP的过程，线粒体会停止产生ATP吗？",
+                "",
+                "不会，因为线粒体基质上的有氧呼吸第二阶段的反应可以继续，会产生ATP。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "%VP:F",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞质基质由细胞骨架和细胞液组成？",
+                "",
+                "错误，细胞液位于液泡中。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Sd;:B",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "胃蛋白酶的最适pH是？",
+                "",
+                "0.8-1.5",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "#D-qH",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "子叶细胞中包被脂肪颗粒的膜对葡萄糖具有选择透过性？",
+                "",
+                "正确，生物膜都具有选择透过性。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "!p1=6",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞质中合成的光合作用相关蛋白需要通过内质网输入叶绿体？",
+                "",
+                "错误，叶绿体可以自己合成。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "SlhH3",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "随着碳酸氢钠溶液浓度增加，叶肉细胞的光合作用由弱变强后，再变弱的原因是？",
+                "",
+                "碳酸氢钠溶液过高时，叶肉细胞失水，导致代谢水平下降。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "S$]78",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞壁对植物细胞起到{{c1::支撑和保护}}作用。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Cc~9D",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "蓝紫光的波长范围是{{c1::390-450}}nm，红光波长是{{c1::550-760}}nm",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Jv0OL",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞凋亡的意义:<br>{{c1::维持内环境稳定}}<br>{{c2::抵御外界各种因素干扰}}<br>{{c3::多细胞生物体完成正常发育}}",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Oi)hB",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞衰老最终表现为细胞{{c1::形态}}、{{c2::结构}}和{{c3::功能}}发生变化",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "N2*RB",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞分化是指在{{c1::形态}}、{{c1::结构}}和{{c1::生理功能}}上发生稳定性差异的过程",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Ub%@7",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "功能越复杂的细胞膜，蛋白质的种类和数量就越{{c1::多}}",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "N<M.yP:gKl",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::乳酸杆}}菌常用于生产酸奶",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "oTr??%!9]9",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "当某植物叶长得茂密时，阳光通过其叶间的空隙，在较低矮植物的叶片上投下“光斑”，“光斑”会随时间的推移而移动。当光斑移开时，O<sub>2</sub>的释放速率立刻下降而CO<sub>2</sub>吸收速率却延续了一段时间才逐渐下降，其原因是？",
+                "",
+                "光斑移开时，光照强度迅速减弱，光反中水光解产生O<sub>2</sub>的速率也立刻下降（1分）。而此时，由于“光斑”照射时积了一定量的 NADPH和ATP（1分），使暗反应能持续一段时间（1分），暗反应CO<sub>2</sub>的吸收速率也能持续了一段时间才下降。",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "_FtFE",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "水稻的非糯性和糯性是一对相对性状，非糯性花粉含直链淀粉，遇碘呈蓝黑色，糯性花粉含支链淀粉，遇碘呈橙黄色，纯种非糯性水稻和糯性水稻杂交，F1花粉加碘染色，在显微镜下观察，半数花粉蓝黑色，半数花粉呈橙黄色。细胞遗传学对此现象的解释是？",
+                "",
+                "减数分裂过程中，等位基因随着同源染色体而分离，分别进入两个配子，因此F1形成两种数目相同的花粉（写孟德尔定律原始表述不给分）",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "LxaTJ",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "淀粉遇碘一定变蓝？",
+                "",
+                "错误，只有直链淀粉的含量高时呈蓝色，当支链淀粉含量高时呈紫红或红色（颜色浅一点就是橙黄色）",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "EPqtO",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞是生物体{{c1::结构}}和{{c2::功能}}的基本单位。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ow;9dnPP#A",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>许多植物和动物是多细胞生物，它们依赖各种{{c1::分化}}的细胞密切合作，共同完成一系列复杂的生命活动。</div><div>例如，</div><div>以{{c2::细胞代谢}}为基础的生物与环境之间物质和能量的交换；以细胞{{c3::增殖分化}}为基础的生长发育；以细胞内基因的</div><div>传递和变化为基础的{{c4::遗传}}与{{c4::变异}}，等等。</div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "w+xyv%@,]2",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>系统：是指彼此间相互作用、相互依赖的组分有规律地结合而形成的整体。一个蛋白质分子{{c1::可以}}（可以、不可</div><div>以）看成一个系统。</div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "G^x@yc@v[D",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::氨基酸}}是组成蛋白质的基本单位。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "cx1-E09&7k",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "各种氨基酸之间的区别在于 {{c1::R 基}}的不同",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "uo]zz=$c_0",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>脂肪不仅是储能物质，还是一种很好的绝热体。生活在海洋中的大型哺乳动物如鲸、海豹等，皮下有厚厚的脂肪层，起到{{c1::保温}}的作用。生活在南极寒冷环境中的企鹅，体内脂肪可厚达 4cm。分布在内脏器官周围的脂肪还具有{{c2::缓冲减压}}的作用，可以保护内脏器官。</div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "i<6w.zVJ,|",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "人体内的抗体是{{c1::蛋白质}}，可以帮助人体抵御病菌和病毒等{{c1::抗原}}的侵害。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "qgiEtoOR/H",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "有些蛋白质起{{c1::信息传递}}作用，能够调节机体的生命活动，如胰岛素。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "h@)C^qk:`2",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "固醇：固醇类物质包括{{c1::胆固醇}}、{{c2::性激素}}和{{c3::维生素 D}} 等",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "J5s@X4D(6M",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "当你烘干一粒小麦种子，然后点燃烧尽，最终会得到一些灰白色的灰烬，这些灰烬就是小麦种子里的{{c1::无机盐}}。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "q7ZujdNi/2",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>查找资料，了解某一种植物（如小麦）生长发育需要哪些无机盐。设计实验，证明某一种或某几种无机盐是这</div><div>种植物生长发育所必需的。对照组：给植物提供完全营养液，实验组：给植物提供{{c1::缺某种无机盐}}的完全营养液</div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "kzv`(B3[h<",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞作为一个基本的生命系统，它的边界就是{{c1::细胞膜}}。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "oUv@<nT0aB",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>细胞在癌变的过程中，细胞膜的成分发生改变，有的产生{{c1::甲胎蛋白}} (AFP)、{{c2::癌胚抗原}} (CEA)等物质。</div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "O|39+D+2l;",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>中心体见于{{c1::动物}}和某些{{c2::低等植物}}的细胞，由两个互相垂直排列的中心粒及周围物质组成，与细胞的有丝分裂有关。</div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "w.,kLaU+p?",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::高尔基体}}在细胞的物质运输中起重要的交通枢纽作用。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "JpqXoAsKKY",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "在细胞内合成后，分泌到细胞外起作用的蛋白质，叫做分泌蛋白，如{{c2::消化酶}}、{{c3::抗体}}和{{c1::一部分激素}}。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "y;k[7Q~c[{",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "细胞核是遗传的{{c1::信息库}}，是细胞{{c2::代谢}}和{{c2::遗传}}的控制中心。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "f[jCT}?:EP",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>新宰的畜、禽，如果马上把肉做熟了吃，肉老而口味不好，过一段时间再煮，肉反而鲜嫩。这可能与肌细胞内哪一种细胞器的作用有关？</div>",
+                "",
+                "溶酶体",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "IE^DLX,,RZ",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>用光学显微镜观察未经染色的动物细胞，在明亮的视野下很难看清细胞的边缘和细胞核。如果把视野调暗，可以看得比较清晰。应该怎样操作？</div>",
+                "",
+                "<div>一是转动反光镜使进光量减少；二是选择小的光圈，减少进</div><div>光量</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "t*s-EBqf`",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><div>细胞的主动运输需要能量。细胞内有机物的合成需要能量。肌细胞的收缩需要能量……细胞作为一个基本的生命系统，只有不断输入能量，才能维持生命活动的{{c1::有序性}}。</div></div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "i|ZV!v&d33",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Fe<sup>3+</sup>和过氧化氢酶促使过氧化氢分解，但它们并未供给过氧化氢能量，而是降低了过氧化氢分解反应的活化能。</div><div>同无机催化剂相比，酶{{c1::降低活化能}}的作用更显著，因而催化效率更高。</div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B=eGt7UCWU",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "酶是活细胞产生的具有催化作用的有机物，其中绝大多数酶是{{c1::蛋白质}}。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "v8ie;P<>vJ",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>酶具有{{c1::专一性}}：过氧化氢酶只能催化过氧化氢分解，不能催化其他化学反应。脲酶除了催化尿素分解外，对其他化学反应也不起作用。每一种酶只能催化一种或一类化学反应。</div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B-2Z=)ciUS",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::酶对化学反应的催化效率}}称为酶活性。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "cCi]y2fy%/",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "二氧化硅有助于{{c1::研磨得充分}}，碳酸钙可{{c2::防止研磨中色素被破坏}}。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Jj8RdBdx_*",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>将研磨液迅速倒入玻璃漏斗（漏斗基部放一块单层尼龙布）中进行过滤。将滤液收集到试管中，{{c1::及时用棉塞将试管口密封}}。&nbsp;</div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "M[t~K?9kD",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><div>将适量的层析液倒入试管中，将滤纸条(有滤液细线的一端朝下)轻轻插入层析液中，随后用棉塞塞紧试管口。注意，不能{{c1::让滤液细线触及层析液}}。</div></div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "K])@]TLVyR",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "一般情况下，光合作用所利用的光都是{{c1::可见光}}。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "QQIcC?4=jP",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>生活在土壤中的硝化细菌，不能利用光能，但是能将土壤中的氨（NH<sub>3</sub>）氧化成亚硝酸（HNO<sub>2</sub>），进而将亚硝酸氧化成硝酸（HNO<sub>3</sub>）。</div><div>硝化细菌能够利用这两个化学反应中释放出的化学能，将二氧化碳和水合成为糖类，这些糖类可供硝化细菌维持自身的生命活动。</div>"
+            ],
+            "flags": 0,
+            "guid": "ljBoW~95a]",
+            "note_model_uuid": "08f2c9ee-375c-11e9-a9e0-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "有丝分裂{{c2::中}}期染色体的形态比较稳定，数目比较清晰，便于观察。中心粒在{{c1::间}}期倍增，成为两组。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "p|Z_?e1F(r",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "相关信息：受精卵和早期胚胎细胞都是具有{{c1::全能}}性的细胞。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "J:+sDA$!:A",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>衰老细胞的特征：细胞内的水分{{c1::减少}}，结果使细胞{{c2::萎缩}}，体积{{c3::变小}}，细胞代谢的速率{{c4::减慢}}。细胞内多种酶的活性{{c5::降低}}。细胞核的体积{{c6::增大}}，核膜内折，染色质收缩、染色加深。细胞膜通透性改变，使物质运输功能{{c7::降低}}。</div>",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "EWZYhFOvAj",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "原癌基因主要负责调节{{c1::细胞周期}}，控制{{c2::细胞生长和分裂}}进程；",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B~gKJt.NGS",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "抑癌基因主要是阻止细胞{{c1::不正常增殖}}。",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "f8.]S8RWy_",
+            "note_model_uuid": "08f42d36-375c-11e9-8661-beec426c7dda",
+            "tags": [
+                "生物必修1"
+            ]
+        }
+    ]
+}
