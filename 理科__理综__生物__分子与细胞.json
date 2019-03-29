@@ -59,17 +59,17 @@
     "extendNew": 10,
     "extendRev": 50,
     "media_files": [
-        "_times.ttf",
-        "_switch.png",
-        "_z-day.svg",
-        "_x-night.svg",
-        "_y-day.svg",
-        "_x-day.svg",
-        "_space.png",
-        "1263AB79-FB9D-45B1-8724-8912EE49305A.jpg",
-        "B7F7C92D-F21F-4EFD-A4EA-788D097F8EDF.jpg",
         "_y-night.svg",
-        "_z-night.svg"
+        "_y-day.svg",
+        "_z-night.svg",
+        "1263AB79-FB9D-45B1-8724-8912EE49305A.jpg",
+        "_times.ttf",
+        "B7F7C92D-F21F-4EFD-A4EA-788D097F8EDF.jpg",
+        "_switch.png",
+        "_x-night.svg",
+        "_x-day.svg",
+        "_z-day.svg",
+        "_space.png"
     ],
     "name": "理科::理综::生物::分子与细胞",
     "note_models": [
